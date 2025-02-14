@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #202124;
+    font-family:jipjip;
+}
+@font-face {
+    font-family:jipjip;
+    src: url(src/Ubuntu-Regular.ttf);
+}
+.container{
+    width: 98%;
+    padding: 1%;
+}
+.left-side{
+    background-color: #303134;
+    display: inline-block;
+    width: 25%;
+    margin: 0.5%;
+    vertical-align: top;
+    border-radius: 3px;
+}
+.right-side{
+    display: inline-block;
+    width: 72%;
+    vertical-align: top;
+    margin: 0.5%;
+}
+.right-side section{
+    background-color: #303134;
+    /* height: 250px; */
+    margin-bottom: 2%;
+    border-radius: 3px;
+    padding: 30px;
+}
+hr{
+    margin: 0 auto;
+    border-color: #808080;
+    height: 1px;
+    width: 92%;
+}
+footer{
+    background-color: #bb86fc;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
+#profile-box{
+    position: relative;
+}
+#profile-box #profile-imaig{
+    width: 100%;
+    border-radius:3px 3px 0 0 ;
+    height: 400px;
+}
+#discription-box{
+    padding: 11px;
+}
+#discription-box ul{
+    list-style: none;
+}
+#discription-box ul li i.fa{
+    color:  #bb86fc;
+    font-size: 17px;
+}
+#discription-box ul span{
+    margin-left: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+#discription-box ul li{
+    margin-bottom: 15px;
+}
+i.fa{
+    color: aqua;
+}
+.pb100{
+    width: 100%;
+}
+.pb90{
+    width: 90%;
+}
+.pb70{
+    width: 70%;
+}
+.pb50{
+    width: 50%;
+}
+.pb40{
+    width: 40%;
+}
+.aside-item{
+    padding: 15px;
+    color: #fff;
+    margin: 5px 0 25px;
+}
+.item-title{
+    margin-left: 5px;
+}
+.skill-item{
+    margin-top: 15px;
+}
+.progress-box{
+    background-color: #eee;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+.progress-box .progress-bar{
+    background-color:rgb(155, 34, 121);
+    padding: 2px;
+    border-radius: 15px;
+}
+.head-title {
+    font-size: 32px;
+    color: #fff;
+}
+.right-side-item{
+    color: #fff;
+}
+.label{
+    background-color: #bb86fc;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+.right-side-item h3,
+.right-side-item h4{
+    margin: 18.5px 0;
+}
+.right-side-item p{
+margin: 15px 0 40px;
+}
+footer a{
+    color: #fff;
+}
+#profile-box #profile-name{
+text-align: center;
+color: #fff;
+background-color:rgba(0, 0, 0, 0.4) ;
+padding: 2%;
+margin-top: -3px;
+width: 96%;
+position: absolute;
+bottom: 2px;
+left: 0;
+font-size: 18px;
+font-weight:bold;
+}
+@media only screen and (max-width:768px){
+    .left-side{
+        display: block;
+        width: 99%;
+    }
+    .right-side{
+        display: block;
+        width: 99%;
+    }
+}
